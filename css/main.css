@@ -35,6 +35,7 @@ body {
 @media screen and (max-width: 992px) {
   .container {
     max-width: 700px;
+    padding: 0 15px;
   }
   .content__description {
     max-width: 350px;
