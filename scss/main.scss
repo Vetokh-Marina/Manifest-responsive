@@ -51,13 +51,6 @@ body {
       text-align: center;
    }
 
-   .content__block {
-      flex-wrap: wrap;
-      gap: 20px;
-      padding: 0 20px;
-      justify-content: center;
-   }
-
    .baner__title title {
       font-size: 36px;
    }
@@ -233,6 +226,10 @@ body {
    &__block {
       @include flex (none, center, row, 30px);
       margin-bottom: 50px;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0 20px;
+      justify-content: center;
 
       &-revers {
          flex-direction: row-reverse;
