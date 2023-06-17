@@ -274,6 +274,6 @@ body {
 }
 @media screen and (max-width: 768px) {
   .description {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
